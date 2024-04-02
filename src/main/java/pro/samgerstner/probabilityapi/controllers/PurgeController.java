@@ -94,7 +94,7 @@ public class PurgeController
          }
       }
 
-      return "{\"status\": \"success\",\"message\": \"Bags or marbles purged successfully.\"}";
+      return "{\"status\": \"success\",\"message\": \"Bags of marbles purged successfully.\"}";
    }
 
    @GetMapping(path = "/dice", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
